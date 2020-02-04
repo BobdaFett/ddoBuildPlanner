@@ -6,3 +6,5 @@ https://github.com/LittleTealeaf/ddoBuildPlanner/tree/0.0.1
 Development in my discord! https://discord.gg/C9aBNUf
 
 https://github.com/eldur/jwbf
+
+this edit is better
