@@ -13,21 +13,18 @@ import classes.Enchref;
 import classes.Gearset;
 import classes.Iref;
 import classes.Item;
-import classes.Items;
 import classes.Settings;
 import interfaces.ItemPrompt;
-import interfaces.fxEditItem;
 import interfaces.fxMain;
 import javafx.collections.FXCollections;
 import javafx.geometry.Insets;
-import javafx.scene.control.Accordion;
 import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
+import javafx.scene.control.ButtonBar.ButtonData;
 import javafx.scene.control.ButtonType;
-import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Dialog;
-import javafx.scene.control.Label;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.ScrollPane;
@@ -35,14 +32,10 @@ import javafx.scene.control.ScrollPane.ScrollBarPolicy;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.TextField;
-import javafx.scene.control.TitledPane;
 import javafx.scene.control.TreeItem;
 import javafx.scene.control.TreeView;
-import javafx.scene.control.Alert.AlertType;
-import javafx.scene.control.ButtonBar.ButtonData;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
@@ -54,10 +47,11 @@ import util.string;
 import vars.GearSlot;
 
 /**
- * This class is the display/ui used for the gearsets tab of the main application
+ * This is the window for the Gearsets Tab.
  * 
- * @author Tealeaf
+ * @author LittleTealeaf
  */
+
 public class Gearsets {
 
 	private static Tab tab;

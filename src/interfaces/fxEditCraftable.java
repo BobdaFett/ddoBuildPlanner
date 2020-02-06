@@ -7,8 +7,8 @@ import classes.Enchantments;
 import classes.Enchref;
 import javafx.collections.FXCollections;
 import javafx.scene.control.Button;
-import javafx.scene.control.ButtonType;
 import javafx.scene.control.ButtonBar.ButtonData;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.Dialog;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
@@ -16,6 +16,12 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.text.Text;
+
+/**
+ * This is the window to edit a Craftable object.
+ * 
+ * @author LittleTealeaf
+ */
 
 public class fxEditCraftable {
 

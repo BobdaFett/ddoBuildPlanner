@@ -16,6 +16,12 @@ import javafx.scene.layout.HBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+/**
+ * This is the window that displays the Inventory of the Build.
+ * 
+ * @author LittleTealeaf
+ */
+
 public class fxInventory {
 
 	public static Stage stage;

@@ -1,0 +1,11 @@
+DDO Build Planner, as adapted by me, is commented to show the setup of the entire project.
+
+This means that any comments or changes of code are not the original project, but simply 
+a means to learn from the code.
+
+I don't claim to own any of this, again it's just a testing/learning area.
+
+After this is all notes.
+
+1) It seems like all of the edit methods are actually separate classes. No idea why, but they are.
+2) There are a lot of objects for storing information.

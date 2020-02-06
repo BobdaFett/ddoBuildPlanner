@@ -44,6 +44,12 @@ import util.system;
 import vars.Ability;
 import vars.ItemSlot;
 
+/**
+ * This is the window to edit an Item object.
+ * 
+ * @author LittleTealeaf
+ */
+
 public class fxEditItem {
 
 	public static Stage stage;

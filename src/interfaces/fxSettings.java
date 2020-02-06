@@ -33,6 +33,12 @@ import javafx.stage.Stage;
 import javafx.util.Callback;
 import util.resource;
 
+/**
+ * This is the window that allows you to change the settings.
+ * 
+ * @author LittleTealeaf
+ */
+
 public class fxSettings {
 
 	public static Stage stage;

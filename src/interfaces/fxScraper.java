@@ -2,15 +2,21 @@ package interfaces;
 
 import classes.Item;
 import javafx.collections.FXCollections;
+import javafx.scene.control.ButtonBar.ButtonData;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Dialog;
 import javafx.scene.control.TextField;
-import javafx.scene.control.ButtonBar.ButtonData;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import scrapers.Compendium;
+
+/**
+ * This is the window that allows to import an existing Build.
+ * 
+ * @author Lucas Vas
+ */
 
 public class fxScraper {
 

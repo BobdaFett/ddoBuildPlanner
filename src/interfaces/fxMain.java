@@ -10,6 +10,12 @@ import javafx.scene.control.TabPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
+/**
+ * This is the Main application. This creates and runs all of the other classes in the Application.
+ * 
+ * @author LittleTealeaf
+ */
+
 public class fxMain extends Application {
 
 	public static Stage sMainRef;

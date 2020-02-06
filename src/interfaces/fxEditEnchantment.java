@@ -15,6 +15,12 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+/**
+ * This is the window to edit an Enchantment object.
+ * 
+ * @author LittleTealeaf
+ */
+
 public class fxEditEnchantment {
 
 	private static Enchantment ench;

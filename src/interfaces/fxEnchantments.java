@@ -12,6 +12,12 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
+/**
+ * This is the window that displays all of the Enchantments in the Build.
+ * 
+ * @author LittleTealeaf
+ */
+
 public class fxEnchantments {
 
 	public static Stage stage;

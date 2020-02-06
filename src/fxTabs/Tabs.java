@@ -4,6 +4,12 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.scene.control.Tab;
 
+/**
+ * This compiles all of the Tabs into one object.
+ * 
+ * @author LittleTealeaf
+ */
+
 public class Tabs {
 
 	public static ObservableList<Tab> getMainTabs() {
